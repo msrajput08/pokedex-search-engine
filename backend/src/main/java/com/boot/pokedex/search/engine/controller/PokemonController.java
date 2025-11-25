@@ -11,7 +11,7 @@ import com.boot.pokedex.search.engine.service.PokeService;
 
 @RestController
 @RequestMapping("/api/pokemon")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "*")
 public class PokemonController {
 
 	private final PokeService pokeService;
