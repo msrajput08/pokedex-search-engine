@@ -2,6 +2,9 @@ import React, { useState } from "react";
 import axios from "axios";
 import "./App.css";
 
+// 👇 Set your Render backend URL here
+const BASE_URL = "https://pokedex-search-engine-3.onrender.com";
+
 function App() {
   const [name, setName] = useState("");
   const [pokemon, setPokemon] = useState(null);
@@ -13,7 +16,7 @@ function App() {
     setLoading(true);
     setError("");
     try {
-      const res = await axios.get(`http://localhost:8080/api/pokemon/${name.toLowerCase()}`);
+      const res = await axios.get(`${BASE_URL}/api/pokemon/${name.toLowerCase()}`);
       setPokemon(res.data);
     } catch {
       setError("Pokémon not found!");
