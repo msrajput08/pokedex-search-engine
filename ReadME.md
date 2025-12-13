@@ -47,6 +47,13 @@ Pokedex-search-engine/
 
 ---
 
+## Screenshots
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6cfdbae1-2ac2-4d77-9066-d04b1c54858d" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f4b5d0fc-c4ef-40b3-980e-0895031c50c8" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/22a52bae-8dd2-483e-a341-8184ffed8bcc" />
+
+
+
 ## 🛠️ How to Run
 
 ### **Backend**
