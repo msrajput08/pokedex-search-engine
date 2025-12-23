@@ -4,6 +4,9 @@ A simple and fast Pokémon search engine built using **Spring Boot** (backend) a
 The app fetches real-time Pokémon data from the official **PokéAPI** and displays details such as image, abilities, stats, type, height, and weight.
 
 ---
+## Live Demo
+
+Check out the Pokédex app live here: [https://pokedex-2-0ame.onrender.com/](https://pokedex-2-0ame.onrender.com/)
 
 ## 🚀 Tech Stack
 
@@ -117,11 +120,6 @@ GET /pokemon/{name}
 - Improve UI styling  
 
 ---
-
-## Live Demo
-
-Check out the Pokédex app live here: [https://pokedex-2-0ame.onrender.com/](https://pokedex-2-0ame.onrender.com/)
-
 
 ## 🤝 Contributing
 
